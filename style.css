@@ -4,11 +4,12 @@
 }
 .header{
     width: 100%;
-    height: 10%;
+    height: 15%;
     background: #ff2626;
     text-align: center;
     color:white;
-    padding-bottom: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 #title{
     font-family: 'Alexandria', sans-serif;
@@ -17,7 +18,7 @@
     font-family: 'Alexandria', sans-serif;
 }
 .menu{
-    margin-top: 2%;
+    margin-top: 10%;
     height: 50%;
     display: flex;
     justify-content: center;
@@ -34,16 +35,20 @@ table,tr,td{
     height: 55%;
     text-align: center;
     font-family: 'Alexandria', sans-serif;
-    margin-top:20%;
+    margin-top:0%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 td img{
     display:block;
     margin: 0 auto;
 }
+table{
+    width: 100%;
+    table-layout: fixed;
+}
 td{
-    padding-top:5%;
-    padding-bottom: 5%;
+    padding-top:12%;
+    padding-bottom: 12%;
     margin:0 auto;
 }
 .bottom{
@@ -60,4 +65,18 @@ td{
     display:flex;
     align-self: center;
     text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .header{
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .menu{
+        margin-top: 1.6%;
+    }
+    td{
+        padding-top:4%;
+        padding-bottom: 4%;
+    }
 }
