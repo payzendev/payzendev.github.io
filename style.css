@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background: #ff2626;
+    text-align: center;
+    color:white;
+    padding-bottom: 3%;
+}
+#title{
+    font-family: 'Alexandria', sans-serif;
+}
+#address{
+    font-family: 'Alexandria', sans-serif;
+}
+.menu{
+    margin-top: 2%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table,tr,td{
+    border: black;
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 2px;
+}
+.menutd{
+    width: 85%;
+    height: 55%;
+    text-align: center;
+    font-family: 'Alexandria', sans-serif;
+    margin-top:20%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+td img{
+    display:block;
+    margin: 0 auto;
+}
+td{
+    padding-top:5%;
+    padding-bottom: 5%;
+    margin:0 auto;
+}
+.bottom{
+    width: 100%;
+    height: 10%;
+    background: #ff2626;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    bottom:0px;
+    font-family: 'Alexandria', sans-serif;
+}
+.wrapper{
+    display:flex;
+    align-self: center;
+    text-align: center;
+}
