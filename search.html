@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total Liquor | Liquor Store</title>
+    <link rel="stylesheet" href="style2.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@200;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1 id="title"><u>Total Liquor</u></h1>
+        <p id="address">9405 Jensen Dr, Houston, TX 77093</p>
+    </div>
+    <div class="searchbar">
+        <input type="text" id="search" placeholder="Search Products..">
+    </div>
+    <div id="searchFor">
+    </div>
+    <div class="sort">
+        <p>Sort by: &nbsp;</p>
+        <select id="sorting" onchange="sortBy(this.value)">
+            <option>Popularity</option>
+            <option>$High-$Low</option>
+            <option>$Low-$High</option>
+        </select>
+    </div>
+    
+    <div class="menu">
+        <table id="menutd">
+
+        </table>
+    </div>
+
+    <div class="bottom">
+        <div class="wrapper">
+            <span class="contact">
+                <b>Contact Us</b> <br/>
+                <span class="phone">
+                    Phone: (346) 406-4175
+                </span>
+            </span>
+        </div>
+    </div>
+    
+</body>
+<script src="search.js"></script>
+</html>
